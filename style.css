@@ -1,0 +1,35 @@
+#first {
+    color: red;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+.plain {
+    font-size: 32px;
+    background-color: whitesmoke;
+    color: purple;
+}
+
+#last {
+    font-size: 31px;
+    color: brown;
+}
+
+p {
+    background-color: aqua;
+}
+
+#links {
+    color: aquamarine;
+    background-color: black;
+}
+body {
+    background-color: blue;
+    margin: 0px;
+}
+
+img {
+    object-fit: cover;
+}
