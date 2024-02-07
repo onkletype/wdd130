@@ -1,0 +1,71 @@
+:root {
+    --primary-color: white;
+}
+body {
+    background-color: blue;
+    font-size: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: white;
+}
+nav a:hover {
+    background-color: blueviolet;
+}
+.book, .join{
+    background-color: aqua;
+}
+.book:hover, .join:hover{
+    background-color: brown;
+}
+.msg{
+    background-color: brown;
+}
+footer{
+    background-color: aquamarine;
+}
+
+#content {
+    margin:0 auto
+}
+nav a{
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: bisque;
+}
+h1 {
+    font-size: 3px;
+}
+h4 {
+    font-size: 1.5em;
+}
+h1, h2, h3, h4,  h5, h6{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+p {
+    color: purple;
+}
+img {
+    width: 100px;
+}
+div.social img{
+    width: 80px;
+}
+img.card-img {
+    display:block ;
+    margin: 0 auto;
+}
