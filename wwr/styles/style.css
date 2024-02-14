@@ -1,46 +1,93 @@
 :root {
     --primary-color: white;
 }
+
 body {
-    background-color: blue;
+    background-color: #255d29;
     font-size: 100%;
     max-width: 1600px;
     margin: 0 auto;
 }
+
 header {
-    background-color: white;
+    background-color: #012f60;
 }
+
+.home-title{
+    color: #ff6900;
+}
+
 nav a:hover {
-    background-color: blueviolet;
+    background-color: #ff6900;
+    color: white;
+    text-decoration: underline;
 }
+
 .book, .join{
-    background-color: aqua;
+    background-color: #efad04;
+    color: #012f60;
 }
+
 .book:hover, .join:hover{
-    background-color: brown;
+    background-color: white;
+    color: black;
 }
+
 .msg{
-    background-color: brown;
+    background-color: #ffb700;
 }
+
+.msg h2{
+    color: #012f60;
+}
+
+.msg p{
+    color: #012f60;
+}
+
 footer{
-    background-color: aquamarine;
+    background-color: #012f60;
+    color: black;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color:azure
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
 }
 
 #content {
     margin:0 auto
 }
+
 nav a{
     text-align: center;
+    color: #ff6900;
+    text-decoration: none;
 }
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
+
 #background{
     height: 725px;
     background-color: bisque;
@@ -50,6 +97,7 @@ h1 {
 }
 h4 {
     font-size: 1.5em;
+    color: black;
 }
 h1, h2, h3, h4,  h5, h6{
     color: orange;
@@ -57,10 +105,10 @@ h1, h2, h3, h4,  h5, h6{
     font-size: 2em;
 }
 p {
-    color: purple;
+    color:#ff6900 ;
 }
-img {
-    width: 100px;
+.icon{
+    width: 80px;
 }
 div.social img{
     width: 80px;
@@ -68,4 +116,10 @@ div.social img{
 img.card-img {
     display:block ;
     margin: 0 auto;
+}
+#hero img{
+    width: 100%;
+}
+.logo{
+    width: 80px;
 }
