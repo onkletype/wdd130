@@ -7,6 +7,8 @@ body {
     font-size: 100%;
     max-width: 1600px;
     margin: 0 auto;
+    padding: 0;
+    font-family: 'Comic Sans', Georgia, serif;
 }
 
 header {
@@ -15,6 +17,9 @@ header {
 
 .home-title{
     color: #ff6900;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 nav a:hover {
@@ -26,6 +31,10 @@ nav a:hover {
 .book, .join{
     background-color: #efad04;
     color: #012f60;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -35,6 +44,8 @@ nav a:hover {
 
 .msg{
     background-color: #ffb700;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -43,11 +54,14 @@ nav a:hover {
 
 .msg p{
     color: #012f60;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #012f60;
     color: black;
+    padding: 25px 50px;
 }
 
 footer a{
@@ -55,7 +69,7 @@ footer a{
 }
 
 footer a:hover{
-    color:azure
+    color: white
 }
 
 footer p{
@@ -64,6 +78,10 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+    margin-top: 200px;
 }
 
 #content {
@@ -74,6 +92,7 @@ nav a{
     text-align: center;
     color: #ff6900;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -95,6 +114,9 @@ main section {
 h1 {
     font-size: 3px;
 }
+h2{
+    margin: 0;
+}
 h4 {
     font-size: 1.5em;
     color: black;
@@ -109,17 +131,26 @@ p {
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 div.social img{
     width: 80px;
 }
-img.card-img {
+.card-img {
     display:block ;
     margin: 0 auto;
+    border: 10px solid black;
+    
 }
 #hero img{
     width: 100%;
 }
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px;
 }
