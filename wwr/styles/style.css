@@ -26,6 +26,10 @@ nav {
     font-size: 2em;
     margin-top: 10px;
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
 nav a:hover {
     background-color: #ff6900;
@@ -51,10 +55,6 @@ nav a:hover {
     margin-top: 100px;
 }
 
-.home-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
