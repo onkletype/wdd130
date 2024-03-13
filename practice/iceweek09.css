@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+
+    box-sizing: borer-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 350px;
+}
+header{
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+#time{
+    max-width: 350px;
+    font-size: 16px; 
+    color: #506995;
+    text-align: center;
+}
+#title{
+    max-width: 350px;
+    font-size: 32px;
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+#text{
+    max-width: 350px;
+    color: #8d828d;
+    font-size: 16px;
+    text-align: center;
+}
+footer{
+    max-width: 350px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #3f5b8b;
+}

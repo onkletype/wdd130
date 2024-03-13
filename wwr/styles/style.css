@@ -224,7 +224,7 @@ div.social img{
     align-self: center;
 }
 .rivers-card, .camping-card, .rapids-card{
-    margin: 200px;
+    margin-top: 200px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

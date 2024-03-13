@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        label, input, textarea, button {
+            width:300px;
+            display: block;
+        }
+
+        input, textarea {
+            
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questions</h1>
+
+    <form action="thankyou.html" method="get">
+        <label for="fname">First Name:</label>
+        <input id="fname" name="fname" type="text" placeholder="first name goes here" required>
+
+        <label for="lname">Last Name:</label>
+        <input id= "lname" name="lname" type="text" placeholder="last name gors her">
+
+        <label for="qbox">Type your question here</label>
+        <textarea name="qbox" id="qbox"  placeholder="Your question goes in here ding dong"></textarea>
+        <button type="submit"> Ask your Question</button>
+    </form>
+</body>
+</html>
