@@ -233,24 +233,24 @@ div.social img{
 
 
 
-#salmon-river{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-}
+
 .river-title{
     grid-column: 1/4;
     grid-row: 1;
     margin-bottom: 20px;
     margin-top: 70px;
 }
+#salmon-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
 #salmon-pic{
     grid-column: 1/2;
     width: 100%;
-    margin: 5px auto;
-}
+    }
 #salmon-p{
-    grid-column: 2/4;
-    margin: 20px 20px 20px 20px;
+    padding: 20px;
 }
 #utah-river{
     display: grid;
@@ -271,6 +271,41 @@ div.social img{
     width: 100%;
 }
 
+/* contact us */
+
+#question{
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label, input, textarea, button {
+    width:300px;
+    display: block;
+}
+
+input, textarea {
+    
+    margin-bottom: 1em;
+}
 
 
 /* media queery */
@@ -318,5 +353,8 @@ div.social img{
     }
     footer {
         margin-top: 25px;
+    }
+    #salmon-content{
+        display: block;
     }
 }

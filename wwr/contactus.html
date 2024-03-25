@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/circlelogo.jpg" alt= "Dry Oar Logo">
+            </a>    
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="rivers.html">Rivers</a>
+                <a href="site.plan.rafting.html">Site Plan</a>
+                <a href="contact.us.html">Contact Us</a>
+            </nav>
+        </header>
+    </div>  
+    <main id="question">
+        <h1>Questions</h1>
+
+        <form action="thankyou.html" method="get">
+            <label for="fname">First Name:</label>
+            <input id="fname" name="fname" type="text" placeholder="Your first name goes here" required>
+    
+            <label for="lname">Last Name:</label>
+            <input id= "lname" name="lname" type="text" placeholder="Your last name goes here">
+    
+            <label for="qbox">Type your question here</label>
+            <textarea name="qbox" id="qbox"  placeholder="Your question goes here"></textarea>
+            <button type="submit"> Ask your Question</button>
+        </form>
+        <div id="feedback">
+            
+        </div>
+        
+    </main>    
+   <footer>
+       <p>Dry Oar &copy; 2024 - Daeson Grover</p>
+       <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.png" target="_blank">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+            <a href="https://twitter.png" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.forms[0];
+        formElement.addEventListener('submit', function(e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = 'Hello '+ formElement.fname.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.style.display = "block";
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
