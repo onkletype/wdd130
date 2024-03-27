@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/rsz_img_0688.png" alt="shenanigans logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Special Events</a>
+            <a href="rent.html">Rent the Building</a>
+        </nav> 
+    </header>
+
+    <div> <main id="question">
+        <h1>Schedlue a time now to rent the building, or leave any questinos below</h1>
+
+        <form action="thankyou.html" method="get">
+            <label for="fname">First Name:</label>
+            <input id="fname" name="fname" type="text" placeholder="Your first name goes here" required>
+    
+            <label for="lname">Last Name:</label>
+            <input id= "lname" name="lname" type="text" placeholder="Your last name goes here">
+    
+            <label for="qbox">Schedule a time for the building or preregister for events here!</label>
+            <textarea name="qbox" id="qbox"  placeholder="scedule a time or sign up for an event here!"></textarea>
+            <button type="submit"> Ask your Question</button>
+        </form>
+        <h2>Please reach out with any questions via phone, email, or dm us on instagram</h2>
+        <div id="phone">
+            <a href="tel: 2087106925">Call us here</a>
+            <a href="mailto: daeson.grover@gmail.com">Email us here</a>
+            <a href="https://www.instagram.com/shenanigansposse">DM us on instagram</a>
+        </div>
+    </main> 
+    </div>
+
+    <footer>
+        <div>
+            <a href="site-plan.html">Site plan refrence</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="https://www.instagram.com/shenanigansposse">Follow us on Instagram!</a>
+        </div>
+    </footer>
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.forms[0];
+        formElement.addEventListener('submit', function(e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = 'Hello '+ formElement.fname.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.style.display = "block";
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
