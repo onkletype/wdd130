@@ -1,0 +1,151 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Lato, Helvetica, sans-serif;
+}
+/* header css nfor all */
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+}
+header a:hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+#logo{
+    grid-column: 2/5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+    grid-column: 2/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+a{
+    grid-column: auto;          
+    padding: 1em;
+    text-decoration: none;
+    color: #6fd1b3;
+}
+#menu1{
+    grid-column: 1/2;
+    font-size: 1.5em;
+}
+#menu2{
+    grid-column: 2/3;
+    font-size: 1.5em;
+}
+#menu3{
+    grid-column: 3/4;
+    font-size: 1.5em;
+}
+
+/* css for homepage main content */
+
+main{
+    padding: 2em;
+}
+img{
+    max-width: 100%;
+
+}
+#welcome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+
+}
+h1{
+    font-size: 3em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #6fd1b3;
+    background-color: #94591b;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.blurb{
+    font-size: 20px;
+    grid-column: 2/3;
+    color: #94591b;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    /* border:#6fd1b3, 10px; */
+}
+
+.blurb+img{
+    grid-column: 1/2;
+    grid-row: 1/6;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 20px;
+}
+.topic{
+    font-size: 3em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #6fd1b3;
+}
+#whatis{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+#whatis h2{
+    margin: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 3em;
+    background-color: #94591b;
+    border-radius: 10px;
+}
+#whatis .blurb{
+    grid-column: 1/2;
+    margin-top: 1em;
+    
+}
+#whatis img{
+    grid-column: 2/3;
+    margin-top: 5em;
+}
+
+#aboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-top: 5em;
+}
+#aboutus h2{
+    margin-top: 2em;
+    background-color: #94591b;
+    border-radius: 10px;
+    text-align: center;
+}
+#aboutus .blurb{
+    margin-top: 1em;
+}
+
+
+/* footer css */
+
+footer a{
+    font-size: 2em;
+}
+footer a:hover{
+    background-color: black;
+    border-radius: 5px;
+}
