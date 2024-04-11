@@ -26,6 +26,9 @@ header a:hover{
     margin-left: auto;
     margin-right: auto;
 }
+p{
+    text-align: center;
+}
 .menu {
     grid-column: 2/5;
     display: grid;
@@ -191,6 +194,7 @@ footer a:hover{
 #dancefight a{
     font-size: 3em;
     grid-column: 1/3;
+    text-align: center;
 }
 #dancefight a:hover{
     background-color: black;
@@ -221,3 +225,66 @@ footer a:hover{
     font-size: 1.7em;
     margin-top: 4em;
 }
+/* CSS for rent page */
+
+#rentit{
+    display: grid;
+    grid-column: 1fr 1fr ;
+    grid-row:  1fr 1fr;
+    gap: 1em;
+}
+h2{
+    margin-top: 1em;
+    font-size: 3em;
+    grid-column: 1/3;
+    color: #6fd1b3;
+   background-color: #94591b;
+   border-radius: 20px;
+   text-align: center;
+   padding: 2px;
+   margin-bottom: 1em;
+}
+
+#rentit p{
+    font-size: 20px;
+    grid-column: 2/3;
+    color: #94591b;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    grid-row: 1/2;
+    text-align: center;
+}
+#rentit a{
+    grid-row: 2/3;
+    grid-column:2/3;
+    font-size: 2.5em;
+    text-align: center;
+}
+#rentit a:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+
+#rentit img{
+max-width: 100%;
+box-shadow: 3px 3px 5px black;
+border-radius: 20px;
+grid-row: 1/3;
+margin-bottom: 1em;
+}
+/* special effects */
+    .scroll-container img{
+        max-height: 450px;
+    }
+    
+    div.scroll-container {
+      background-color:#94591b;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 10px;
+    }
+    
+    div.scroll-container img {
+        padding: 10px;
+    }
